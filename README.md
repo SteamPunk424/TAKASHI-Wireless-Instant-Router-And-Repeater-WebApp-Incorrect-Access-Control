@@ -72,6 +72,9 @@ admin:language=<any_value>
 ```
 Where `<any_value>` can be any string, text, or number. As long as the cookie is present, the application will treat the user as an authenticated admin.
 
+### The Other DOS Exploit
+The DOS Exploit works due to an error with how the backup file is handled for the routers settings. If edited manually you can change the username which is not changable when logging into the router. Basically disableing the ability to log in without somthing like burpsuite to intercept and alter the admin username credentials.
+
 ## Impact
 - Unauthorized users can gain admin-level access without valid credentials.
 - Attackers can modify router settings, expose sensitive data, and potentially disrupt network operations.
