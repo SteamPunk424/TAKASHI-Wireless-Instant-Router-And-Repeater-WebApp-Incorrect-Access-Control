@@ -1,4 +1,4 @@
-# TAKASHI Wireless Instant Router and Repeater - Incorrect Access Control CVE-2025-29711
+# TAKASHI Wireless Instant Router and Repeater - Incorrect Access Control
 
 ## Overview
 A critical authentication bypass vulnerability has been identified in the TAKASHI Wireless Instant Router and Repeater (Model A5) running firmware version **V5.07.38_AAL03** with hardware version **V3.0**. This vulnerability allows unauthorized users to gain administrative access due to improper session management. This has also allowed for another exploit to be run which will disable the admin panels ability to assign cookies properly using this exploit here [Admin Panel Denial of Service Exploit](https://github.com/SteamPunk424/CVE-2025-29711-TAKASHI-Wireless-Instant-Router-And-Repeater-WebApp-Incorrect-Access-Control/blob/main/AdminPanelDOSExploit.py)
